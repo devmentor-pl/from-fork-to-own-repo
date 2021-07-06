@@ -1,4 +1,6 @@
-# 🔥 Stwórz własne repozytorium z repozytorium sforkowanego
+![an image with 5 steps of making own repository](./publiczne-repozytorium-ze-sforkowanego-5-krokow.png)
+
+&nbsp;
 
 Oto prosty sposób, jak utworzyć repozytorium z własnym projektem na podstawie wcześniej sforkowanego repo (np. prywatnego repo z zadaniem).
 
