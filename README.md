@@ -1,4 +1,4 @@
-![an image with 5 steps of making own repository](./publiczne-repozytorium-ze-sforkowanego-5-krokow.png)
+![an image with 5 steps of making own repository](./publiczne-repozytorium-ze-sforkowanego-5-krokow-v1.png)
 
 &nbsp;
 
