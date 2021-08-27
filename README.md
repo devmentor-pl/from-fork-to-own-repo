@@ -19,7 +19,7 @@ git clone https://github.com/<username>/<your-new-repo>.git
 
 ## 3. Przejdź do katalogu swojego lokalnego repozytorium i oznacz oryginalne repozytorium (sforkowane) jako źródłowe.
 ```
-cd <forked-repo>
+cd <your-new-repo>
 git remote add upstream https://github.com/<username>/<your-fork-of-original-repo>.git
 ```
 &nbsp;
