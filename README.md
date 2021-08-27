@@ -7,20 +7,20 @@ Oto prosty sposób, jak utworzyć repozytorium z własnym projektem na podstawie
 &nbsp;
 
 ## 1. Utwórz nowe repozytorium na GitHubie.
-Będzie to repozytorium dla Twojego projektu: [github.com/new](https://github.com/new).
+Będzie to repozytorium dla Twojego projektu: [github.com/new](https://github.com/new). W dalszych instrukcjach znajdziesz je pod nazwą `<your-new-repo>`.
 
 &nbsp;
 
-## 2. Stwórz jego lokalną kopię.
+## 2. Stwórz lokalną kopię swojego nowego repozytorium.
 ```
-git clone https://github.com/<username>/<forked-repo>.git
+git clone https://github.com/<username>/<your-new-repo>.git
 ```
 &nbsp;
 
-## 3. Oznacz oryginalne repozytorium jako źródłowe.
+## 3. Przejdź do katalogu swojego lokalnego repozytorium i oznacz oryginalne repozytorium (sforkowane) jako źródłowe.
 ```
 cd <forked-repo>
-git remote add upstream https://github.com/<username>/<original-repo>.git
+git remote add upstream https://github.com/<username>/<your-fork-of-original-repo>.git
 ```
 &nbsp;
 
@@ -28,11 +28,19 @@ git remote add upstream https://github.com/<username>/<original-repo>.git
 ```
 git pull upstream master
 ```
+lub
+```
+git pull upstream main
+```
 &nbsp;
 
 ## 5. Pushuj zawartość oryginalnego (sforkowanego) repozytorium do Twojego nowego repo na GitHubie.
 ```
 git push origin master
+```
+lub
+```
+git push origin main
 ```
 
 &nbsp;
