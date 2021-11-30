@@ -9,6 +9,8 @@ Oto prosty sposób, jak utworzyć repozytorium z własnym projektem na podstawie
 ## 1. Utwórz nowe repozytorium na GitHubie.
 Będzie to repozytorium dla Twojego projektu: [github.com/new](https://github.com/new). W dalszych instrukcjach znajdziesz je pod nazwą `<your-new-repo>`.
 
+**Uwaga:** Podczas tworzenia repozytorium nie dodawaj automatycznie żadnych plików (README czy .gitignore) – checkboxy z listy "Initialize this repository with" pozostaw puste. Gdy zatwierdzisz utworzenie repo ("Create repository"), zostaniesz przeniesiony do strony z proponowanymi akcjami (np. "Quick setup", "...or create", "...or push") – **nic nie rób**. Po prostu przejdź do kroku 2.
+
 &nbsp;
 
 ## 2. Stwórz lokalną kopię swojego nowego repozytorium.
@@ -37,6 +39,8 @@ lub
 git pull upstream main
 ```
 Nazwę gałęzi (`main` lub `master`) znajdziesz w repozytorium ze sforkowanym projektem zaraz nad listą plików. Jest ona taka sama jak w oryginalnym repozytorium, które forkowałeś.
+
+**Uwaga:** Jeśli w tym momencie w konsoli pojawia się błąd `fatal: refusing to merge unrelated histories`, wróć do punktu 1. – Twoje nowe repozytorium prawdopodobnie nie było puste. 
 
 &nbsp;
 
