@@ -4,6 +4,10 @@
 
 Oto prosty sposób, jak utworzyć repozytorium z własnym projektem na podstawie wcześniej sforkowanego repo (np. prywatnego repo z zadaniem).
 
+|🟩🟩🟩|
+| ------|
+| Uwaga: commity z oryginalnego repo również zostaną przeniesione! Oznacza to, że **Twoja aktywność na GitHubie będzie widoczna w statystykach (także dla rekruterów)**, warto więc tworzyć własne publiczne repozytoria dla projektów.|
+
 &nbsp;
 
 ## 1. Utwórz nowe repozytorium na GitHubie.
